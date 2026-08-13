@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+<!-- ==========================================================================
+     SEO — Osnovni metapodaci (Domena: apartmanasistent.hr)
+     ========================================================================== -->
+<title>Apartman Asistent — Upravljanje apartmanima olakšano</title>
+<meta name="description" content="Rezervacije, podaci o gostima, čišćenje i plaćanja u jednoj preglednoj aplikaciji. Isprobajte odmah u besplatnoj beta fazi." />
+<link rel="canonical" href="https://apartmanasistent.hr/" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#10161a" />
+<link rel="icon" href="/favicon.png" type="image/png" sizes="192x192" />
+<link rel="icon" href="/assets/favicon-32.png" type="image/png" sizes="32x32" />
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Apartman Asistent" />
+<meta property="og:title" content="Apartman Asistent — Upravljanje apartmanima olakšano" />
+<meta property="og:description" content="Rezervacije, podaci o gostima, čišćenje i plaćanja u jednoj preglednoj aplikaciji. Trenutno besplatno u beta fazi." />
+<meta property="og:url" content="https://apartmanasistent.hr/" />
+<meta property="og:locale" content="hr_HR" />
+<!-- TODO: dodati 1200x630 pregledna slika -->
+<meta property="og:image" content="https://apartmanasistent.hr/assets/og-image.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<!-- Twitter / X card (Messenger i LinkedIn također čitaju OG oznake) -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Apartman Asistent — Upravljanje apartmanima olakšano" />
+<meta name="twitter:description" content="Rezervacije, podaci o gostima, čišćenje i plaćanja u jednoj preglednoj aplikaciji." />
+<meta name="twitter:image" content="https://apartmanasistent.hr/assets/og-image.jpg" />
+
+<!-- Fontovi -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+
+<!-- ==========================================================================
+     STRUKTURIRANI PODACI (Schema.org)
+     ========================================================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Apartman Asistent",
+  "url": "https://apartmanasistent.hr/",
+  "logo": "https://apartmanasistent.hr/assets/apple-touch-icon.png"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Apartman Asistent",
+  "url": "https://apartmanasistent.hr/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Apartman Asistent",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web, PWA",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "description": "Besplatno tijekom beta faze.",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Na kojim uređajima radi Apartman Asistent?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Apartman Asistent radi na pametnom telefonu, tabletu i računalu. Kao PWA aplikacija se u nekoliko klikova može instalirati i na početni zaslon mobitela." }
+    },
+    {
+      "@type": "Question",
+      "name": "Koliko traje postavljanje?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Dodavanje prvog apartmana i postavljanje iCal veze obično traje samo nekoliko minuta. Ugrađene upute korak po korak pomažu pri tome." }
+    },
+    {
+      "@type": "Question",
+      "name": "Moram li nešto zasebno instalirati?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Ne. Aplikacija radi izravno u pregledniku, a po potrebi se može instalirati i na početni zaslon mobitela." }
+    },
+    {
+      "@type": "Question",
+      "name": "Koliko apartmana mogu upravljati?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Aplikacija je prikladna za upravljanje s više apartmana." }
+    },
+    {
+      "@type": "Question",
+      "name": "Što je beta faza?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Tijekom beta faze Apartman Asistent je besplatan za korištenje. U tom razdoblju aplikacija se kontinuirano razvija na temelju povratnih informacija ranih korisnika." }
+    },
+    {
+      "@type": "Question",
+      "name": "Moram li posebno uputiti osobu koja čisti?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Ne. Svaki apartman dobiva vlastitu, tajnu poveznicu koju možete poslati npr. putem WhatsAppa osobi koja čisti. Bez prijave ona ondje vidi nadolazeća čišćenja i jednim klikom ih označava kao obavljena." }
+    },
+    {
+      "@type": "Question",
+      "name": "Jesu li moji podaci sigurni?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Da. Aplikacija obrađuje isključivo podatke potrebne za rad. Detalje pronađite u izjavi o zaštiti podataka." }
+    },
+    {
+      "@type": "Question",
+      "name": "S kojim platformama za rezervacije aplikacija surađuje?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Aplikacija putem iCal veze surađuje sa svim platformama za rezervacije koje nude iCal izvoz — na primjer Airbnb, Booking.com ili VRBO." }
+    },
+    {
+      "@type": "Question",
+      "name": "Dobivam li pomoć pri postavljanju?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Da. Ugrađene upute korak po korak pomažu pri postavljanju iCal veze." }
+    },
+    {
+      "@type": "Question",
+      "name": "Zašto je nastao Apartman Asistent?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Zato što upravljanje apartmanima ne postaje jednostavnije time da morate imati otvoreno još više sučelja — Apartman Asistent objedinjuje važne informacije na jednom mjestu." }
+    }
+  ]
+}
+</script>
+
+<!-- ==========================================================================
+     ANALYTICS / MARKETING — Placeholder loader (Consent Mode v2)
+     Stvarni GA4 / GTM / Meta Pixel ID-jevi unose se gore u script.js
+     u TODO odjeljku. Bez prihvaćene privole za kolačiće zapravo ne
+     rade (vidi script.js).
+     ========================================================================== -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    analytics_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    wait_for_update: 500
+  });
+</script>
+</head>
+
+<body>
+<a class="skip-link" href="#main">Preskoči na sadržaj</a>
+
+<!-- ==========================================================================
+     SKUP IKONA (skriveni SVG sprite — jedinstveni sustav ikona)
+     ========================================================================== -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <defs>
+    <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="2,6 12,13 22,6"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M6 3c-1.5 0-2.5 1-2.3 2.5.6 4.5 3.8 9.2 8.3 12.3 1.4 1 3.1 1.5 4.6.4l1.6-1.2c.6-.5.7-1.4.2-2l-2-2.4c-.5-.6-1.4-.7-2-.2l-1 .8c-2-1.4-3.7-3.1-5-5l.8-1c.5-.6.4-1.5-.2-2L6.8 3.3C6.5 3 6.2 3 6 3z"/></symbol>
+    <symbol id="icon-message" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="3"/><polyline points="8,17 6,21 11,17"/></symbol>
+    <symbol id="icon-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/><line x1="5.5" y1="15" x2="9.5" y2="15"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="8,12.5 10.5,15 16,9"/></symbol>
+    <symbol id="icon-home" viewBox="0 0 24 24"><polyline points="3,11 12,4 21,11"/><path d="M5.5 10v9.5h13V10"/></symbol>
+    <symbol id="icon-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><line x1="11" y1="12" x2="20" y2="3"/><line x1="16" y1="7" x2="18.5" y2="9.5"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/><polyline points="8.5,12 11,14.5 15.5,9"/></symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></symbol>
+    <symbol id="icon-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3.2 20c0-3.3 2.6-6 5.8-6s5.8 2.7 5.8 6"/><circle cx="17.5" cy="9" r="2.4"/><path d="M15.2 14.3c2.4.4 4.2 2.6 4.2 5.4"/></symbol>
+    <symbol id="icon-heart" viewBox="0 0 24 24"><path d="M12 21s-7-4.5-9.5-9C.7 8 2 4 6 4c2 0 4 1.3 6 4 2-2.7 4-4 6-4 4 0 5.3 4 3.5 8-2.5 4.5-9.5 9-9.5 9z"/></symbol>
+    <symbol id="icon-chevron-down" viewBox="0 0 24 24"><polyline points="6,9 12,15 18,9"/></symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 24 24"><line x1="4" y1="12" x2="18" y2="12"/><polyline points="12,6 18,12 12,18"/></symbol>
+    <symbol id="icon-smartphone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><line x1="11" y1="18.5" x2="13" y2="18.5"/></symbol>
+    <symbol id="icon-sparkle" viewBox="0 0 24 24"><path d="M12 3l1.8 4.9L19 9.7l-4.9 1.8L12 16.4l-1.8-4.9L5 9.7l4.9-1.8L12 3z"/><path d="M19 15l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7z"/></symbol>
+    <symbol id="icon-bell" viewBox="0 0 24 24"><path d="M6 8a6 6 0 1 1 12 0c0 4 1.5 6 1.5 6h-15S6 12 6 8z"/><path d="M9.5 18a2.5 2.5 0 0 0 5 0"/></symbol>
+    <symbol id="icon-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></symbol>
+    <symbol id="icon-sliders" viewBox="0 0 24 24"><line x1="4" y1="6" x2="20" y2="6"/><circle cx="9" cy="6" r="2"/><line x1="4" y1="12" x2="20" y2="12"/><circle cx="15" cy="12" r="2"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="7" cy="18" r="2"/></symbol>
+    <symbol id="icon-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h6v18H6a2 2 0 0 1-2-2V5z"/><path d="M20 5a2 2 0 0 0-2-2h-6v18h6a2 2 0 0 0 2-2V5z"/></symbol>
+    <symbol id="icon-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.6"/><polyline points="21,15 16,10 5,21"/></symbol>
+    <symbol id="icon-zap" viewBox="0 0 24 24"><polygon points="13,2 3,14 12,14 11,22 21,10 12,10"/></symbol>
+  </defs>
+</svg>
+
+<!-- ==========================================================================
+     BLOK: ZAGLAVLJE
+     ========================================================================== -->
+<header class="site-header" data-block="header">
+  <div class="container site-header__inner">
+    <div class="site-header__top">
+      <a class="logo" href="#top" aria-label="Apartman Asistent — Početna">
+        <span class="logo__mark"><svg viewBox="0 0 24 24"><use href="#icon-home"/></svg></span>
+        Apartman Asistent
+      </a>
+      <a class="btn btn-primary" href="https://app.apartmanasistent.hr" data-cta="header">
+        Započni sada
+      </a>
+    </div>
+    <a class="header-nav-link" href="/blog">Blog</a>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ==========================================================================
+     BLOK: HERO
+     Zamijeniti: umjesto .device-frame__placeholder kasnije dolazi
+     pravi početni zaslon (nadzorna ploča / današnji zadaci) kao snimka zaslona.
+     Preporučena datoteka: assets/screenshots/01-hero-dashboard.webp (1080×2340)
+     ========================================================================== -->
+<section class="hero" id="top" data-block="hero">
+  <div class="container hero__inner">
+    <div class="hero__content" data-reveal>
+      <span class="hero__kicker">Apartman Asistent</span>
+      <h1>Upravljanje apartmanima <span class="accent">postalo je jednostavno.</span></h1>
+      <p class="hero__lead">
+        Rezervacije, podaci o gostima, čišćenje, dnevni zadaci i kontakti — u jednoj
+        preglednoj aplikaciji. Više nema traženja između različitih platformi:
+        manje vremena za administraciju, više vremena za vaše goste.
+      </p>
+
+      <div class="intro-period-badge">
+        <span class="intro-period-badge__emoji" aria-hidden="true">🚀</span>
+        <div>
+          <p class="intro-period-badge__title">Beta faza</p>
+          <p class="intro-period-badge__text">
+            Registrirajte se sada i koristite Apartman Asistent
+            besplatno tijekom beta faze.
+            <a class="intro-period-badge__link" href="#preise">Detalji</a>
+          </p>
+        </div>
+      </div>
+
+      <ul class="trust-badges trust-badges--emphasis">
+        <li><svg class="icon"><use href="#icon-card"/></svg>Kreditna kartica nije potrebna</li>
+        <li><svg class="icon"><use href="#icon-shield"/></svg>Nema automatske naplate</li>
+        <li><svg class="icon"><use href="#icon-bell"/></svg>Obavijestit ćemo vas e-poštom 14 dana unaprijed prije nego što usluga postane naplatna</li>
+      </ul>
+
+      <div class="hero__cta">
+        <a class="btn btn-primary" href="#cta" data-cta="hero">
+          Započni besplatno sada
+          <svg class="icon" style="width:18px;height:18px"><use href="#icon-arrow-right"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__visual" data-reveal>
+      <!-- MJESTO ZA SNIMKU 1/9 — nadzorna ploča / prikaz današnjih zadataka -->
+      <div class="device-frame">
+        <div class="device-frame__screen">
+          <img class="device-frame__img img--hero" src="assets/screenshots/01-hero-dashboard.webp" alt="Početni zaslon Apartman Asistenta s današnjim zadacima" loading="eager" width="1080" height="2340">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: PROBLEM
+     ========================================================================== -->
+<section class="section" id="problem" data-block="problem">
+  <div class="container">
+    <div class="problem__intro" data-reveal>
+      <span class="eyebrow"><span class="dot"></span>Zvuči li vam ovo poznato?</span>
+      <p class="problem__question">Zašto iste informacije moraju biti na toliko različitih mjesta?</p>
+      <p class="lead">
+        Nisu gosti ti koji stvaraju poteškoće — nego to što je svaka informacija negdje drugdje.
+      </p>
+    </div>
+
+    <ul class="problem__list">
+      <li class="problem__item" data-reveal>
+        <svg class="icon"><use href="#icon-calendar"/></svg>
+        <p>Tražim rezervaciju na platformi za rezervacije.</p>
+      </li>
+      <li class="problem__item" data-reveal>
+        <svg class="icon"><use href="#icon-mail"/></svg>
+        <p>Tražim broj telefona gosta u e-poštama.</p>
+      </li>
+      <li class="problem__item" data-reveal>
+        <svg class="icon"><use href="#icon-sparkle"/></svg>
+        <p>Pitam se je li čišćenje već obavljeno.</p>
+      </li>
+      <li class="problem__item" data-reveal>
+        <svg class="icon"><use href="#icon-grid"/></svg>
+        <p>Pokušavam u glavi zapamtiti sve dnevne zadatke.</p>
+      </li>
+    </ul>
+
+    <p class="problem__outro" data-reveal>
+      Nije posao taj koji je previše. <span>Informacije su samo na krivom mjestu.</span>
+      Za to sam tražila jednostavno rješenje — tako je nastao Apartman Asistent.
+    </p>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: FUNKCIJA — Gost stiže
+     Zamijeniti: assets/screenshots/02-guest-profile.webp
+     ========================================================================== -->
+<section class="section section--tight" id="funktionen" data-block="feature-guest-arrival">
+  <div class="container">
+    <div class="feature">
+      <div data-reveal>
+        <div class="feature__icon-badge badge--turquoise" style="background:var(--color-turquoise-dim)">
+          <svg class="icon" style="color:var(--color-turquoise)"><use href="#icon-users"/></svg>
+        </div>
+        <h2 class="feature__title">Gost stiže</h2>
+        <p class="feature__text">
+          Više nema pretraživanja e-pošte. Na profilu gosta pronaći ćete
+          sve važno na jednom mjestu — i jednim klikom nazvati ili poslati poruku.
+        </p>
+        <ul class="feature__points">
+          <li><svg class="icon"><use href="#icon-phone"/></svg> Broj telefona</li>
+          <li><svg class="icon"><use href="#icon-mail"/></svg> E-mail adresa</li>
+          <li><svg class="icon"><use href="#icon-message"/></svg> Vlastite bilješke</li>
+          <li><svg class="icon"><use href="#icon-card"/></svg> Informacije o plaćanju</li>
+          <li><svg class="icon"><use href="#icon-check"/></svg> Obavljeni zadaci</li>
+        </ul>
+      </div>
+      <div class="feature__visual" data-reveal>
+        <!-- MJESTO ZA SNIMKU 2/9 — profil gosta -->
+        <div class="device-frame">
+          <div class="device-frame__screen">
+            <img class="device-frame__img img--guest-profile" src="assets/screenshots/02-guest-profile.webp" alt="Profil gosta s kontakt podacima i informacijama o plaćanju" loading="lazy" width="1080" height="2340">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: FUNKCIJA — Poveznica za čišćenje (ključna funkcija, istaknuta)
+     Zamijeniti: assets/screenshots/03-cleaning-link.webp
+     ========================================================================== -->
+<section class="section section--tight" data-block="feature-cleaning-link">
+  <div class="container">
+    <div class="feature feature--reverse">
+      <div data-reveal>
+        <div class="feature__icon-badge" style="background:var(--color-orange-dim)">
+          <svg class="icon" style="color:var(--color-orange)"><use href="#icon-sparkle"/></svg>
+        </div>
+        <h2 class="feature__title">Vašoj osobi za čišćenje nije potreban račun</h2>
+        <p class="feature__text">
+          Svaki apartman dobiva vlastitu, tajnu poveznicu. Jednom je pošaljete
+          putem WhatsAppa osobi koja čisti — gotovo. Bez prijave, bez instalacije
+          aplikacije, bez objašnjavanja. Osoba koja čisti otvara poveznicu i vidi
+          isključivo nadolazeća čišćenja tog jednog apartmana, svako s jednim
+          jedinim gumbom: <strong>Obavljeno</strong>.
+        </p>
+        <ul class="feature__points">
+          <li><svg class="icon"><use href="#icon-key"/></svg> Vlastita poveznica za svaki apartman</li>
+          <li><svg class="icon"><use href="#icon-check"/></svg> Dovoljan je jedan klik — račun nije potreban</li>
+          <li><svg class="icon"><use href="#icon-bell"/></svg> Vaša nadzorna ploča odmah se ažurira</li>
+          <li><svg class="icon"><use href="#icon-shield"/></svg> Podaci o gostima nisu vidljivi — samo popis čišćenja</li>
+        </ul>
+      </div>
+      <div class="feature__visual" data-reveal>
+        <!-- MJESTO ZA SNIMKU 3/9 — javna stranica za čišćenje -->
+        <div class="device-frame">
+          <div class="device-frame__screen">
+            <img class="device-frame__img img--cleaning-link" src="assets/screenshots/03-cleaning-link.webp" alt="Javna stranica za čišćenje s gumbom Obavljeno, dostupna bez prijave" loading="lazy" width="1080" height="2340">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: ISTAKNUTO PODRUČJE — digitalni asistent
+     ========================================================================== -->
+<section class="section--tight" data-block="highlight">
+  <div class="container">
+    <div class="highlight-banner" data-reveal>
+      <span class="highlight-banner__icon">
+        <svg class="icon-lg"><use href="#icon-zap"/></svg>
+      </span>
+      <h3>Digitalni asistent za vaše apartmane</h3>
+      <p>
+        Apartman Asistent stalno radi za vas u pozadini: prikuplja
+        informacije, podsjeća na važne zadatke i pomaže da imate pregled nad
+        danom. Tako uvijek znate što slijedi.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: FUNKCIJA — Nova rezervacija / automatski iCal uvoz
+     Zamijeniti: assets/screenshots/04-new-booking.webp
+     ========================================================================== -->
+<section class="section section--tight" data-block="feature-new-booking">
+  <div class="container">
+    <div class="feature">
+      <div data-reveal>
+        <div class="feature__icon-badge" style="background:var(--color-turquoise-dim)">
+          <svg class="icon" style="color:var(--color-turquoise)"><use href="#icon-calendar"/></svg>
+        </div>
+        <h2 class="feature__title">Stiže nova rezervacija</h2>
+        <p class="feature__text">
+          Čim stigne nova rezervacija, Apartman Asistent automatski preuzima
+          najvažnije podatke iz kalendara rezervacija (iCal feed). Ne morate
+          ponovno upisivati datum dolaska i odlaska, apartman ni podatke o
+          gostu — rezervacija se pojavljuje u roku od nekoliko sekundi.
+        </p>
+        <ul class="feature__points">
+          <li><svg class="icon"><use href="#icon-check"/></svg> Vrijeme dolaska i odlaska</li>
+          <li><svg class="icon"><use href="#icon-check"/></svg> Podaci o apartmanu</li>
+          <li><svg class="icon"><use href="#icon-check"/></svg> Informacije o plaćanju</li>
+          <li><svg class="icon"><use href="#icon-check"/></svg> Automatski kreirani zadaci</li>
+        </ul>
+      </div>
+      <div class="feature__visual" data-reveal>
+        <!-- MJESTO ZA SNIMKU 4/9 — nova rezervacija / popis rezervacija -->
+        <div class="device-frame">
+          <div class="device-frame__screen">
+            <img class="device-frame__img img--booking" src="assets/screenshots/04-new-booking.webp" alt="Nova rezervacija automatski uvezena iz iCal feeda" loading="lazy" width="1080" height="2340">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: FUNKCIJA — Automatski zadaci
+     Zamijeniti: assets/screenshots/05-guest-tasks.webp
+     ========================================================================== -->
+<section class="section section--tight" data-block="feature-auto-tasks">
+  <div class="container">
+    <div class="feature feature--reverse">
+      <div data-reveal>
+        <div class="feature__icon-badge" style="background:var(--color-green-dim)">
+          <svg class="icon" style="color:var(--color-green)"><use href="#icon-check"/></svg>
+        </div>
+        <h2 class="feature__title">Aplikacija radi za vas</h2>
+        <p class="feature__text">
+          Dolaskom gosta automatski se kreiraju pripadajući zadaci, tako da
+          uvijek točno vidite što je sljedeće na redu. Osim toga, možete
+          kreirati i vlastite, jednokratne ili ponavljajuće zadatke — na
+          primjer svaki ponedjeljak ili svaki petak.
+        </p>
+        <ul class="feature__points">
+          <li><svg class="icon"><use href="#icon-key"/></svg> Pripremiti ključeve</li>
+          <li><svg class="icon"><use href="#icon-message"/></svg> Poslati informacije za prijavu</li>
+          <li><svg class="icon"><use href="#icon-shield"/></svg> Prijava gostiju</li>
+          <li><svg class="icon"><use href="#icon-card"/></svg> Provjeriti plaćanje</li>
+        </ul>
+      </div>
+      <div class="feature__visual" data-reveal>
+        <!-- MJESTO ZA SNIMKU 5/9 — prikaz zadataka -->
+        <div class="device-frame">
+          <div class="device-frame__screen">
+            <img class="device-frame__img img--guest-tasks" src="assets/screenshots/05-guest-tasks.webp" alt="Profil gosta s automatski kreiranim zadacima (prijava, plaćanje, ključevi, check-in)" loading="lazy" width="1080" height="2340">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: FUNKCIJA — Plaćanja
+     Zamijeniti: assets/screenshots/06-payments.webp
+     ========================================================================== -->
+<section class="section section--tight" data-block="feature-payments">
+  <div class="container">
+    <div class="feature feature--spotlight">
+      <div data-reveal>
+        <div class="feature__icon-badge" style="background:var(--color-orange-dim)">
+          <svg class="icon" style="color:var(--color-orange)"><use href="#icon-card"/></svg>
+        </div>
+        <h2 class="feature__title">Uvijek imate pregled nad plaćanjima</h2>
+        <p class="feature__text">
+          Apartman Asistent pomaže da imate pregled nad time koji je gost već
+          platio, a kod kojeg plaćanje još nije stiglo. Ako je već primljen
+          predujam, aplikacija automatski izračunava preostali iznos — i
+          upozorava ako plaćanje nije podmireno do dana odlaska.
+        </p>
+        <ul class="feature__points">
+          <li><svg class="icon"><use href="#icon-check"/></svg> Ukupan iznos i predujam</li>
+          <li><svg class="icon"><use href="#icon-check"/></svg> Preostali iznos</li>
+          <li><svg class="icon"><use href="#icon-check"/></svg> Način plaćanja (gotovina, bankovni prijenos, PayPal ...)</li>
+          <li><svg class="icon"><use href="#icon-check"/></svg> Status: Plaćeno / Djelomično plaćeno / Na čekanju</li>
+        </ul>
+      </div>
+      <div class="feature__visual" data-reveal>
+        <!-- MJESTO ZA SNIMKU 6/9 — status plaćanja / računi -->
+        <div class="device-frame">
+          <div class="device-frame__screen">
+            <img class="device-frame__img img--payments" src="assets/screenshots/06-payments.webp" alt="Pregled statusa plaćanja po rezervaciji" loading="lazy" width="1080" height="2340">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: FUNKCIJA — Kontakti
+     Zamijeniti: assets/screenshots/07-contacts.webp
+     ========================================================================== -->
+<section class="section section--tight" data-block="feature-contacts">
+  <div class="container">
+    <div class="feature feature--reverse">
+      <div data-reveal>
+        <div class="feature__icon-badge" style="background:var(--color-turquoise-dim)">
+          <svg class="icon" style="color:var(--color-turquoise)"><use href="#icon-search"/></svg>
+        </div>
+        <h2 class="feature__title">Svi važni kontakti na jednom mjestu</h2>
+        <p class="feature__text">
+          Kontakt podaci gostiju automatski se pojavljuju među kontaktima, a
+          možete dodati i vlastite partnere — osobu za čišćenje, vrtlara,
+          domara, električara. Jednim dodirom nazovite ili pošaljite poruku.
+        </p>
+        <ul class="feature__points">
+          <li><svg class="icon"><use href="#icon-search"/></svg> Brzo pretraživanje po imenu, telefonu ili e-mailu</li>
+          <li><svg class="icon"><use href="#icon-phone"/></svg> Poziv i e-mail jednim dodirom</li>
+          <li><svg class="icon"><use href="#icon-users"/></svg> Prijašnje rezervacije po apartmanu i godini</li>
+        </ul>
+      </div>
+      <div class="feature__visual" data-reveal>
+        <!-- MJESTO ZA SNIMKU 7/9 — popis kontakata -->
+        <div class="device-frame">
+          <div class="device-frame__screen">
+            <img class="device-frame__img img--contacts" src="assets/screenshots/07-contacts.webp" alt="Popis kontakata s funkcijom pretraživanja" loading="lazy" width="1080" height="2340">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: FUNKCIJA — Prvi koraci / postavljanje iCal-a
+     Zamijeniti: assets/screenshots/08-ical-setup.webp
+     ========================================================================== -->
+<section class="section section--tight" data-block="feature-onboarding">
+  <div class="container">
+    <div class="feature">
+      <div data-reveal>
+        <div class="feature__icon-badge" style="background:var(--color-green-dim)">
+          <svg class="icon" style="color:var(--color-green)"><use href="#icon-sliders"/></svg>
+        </div>
+        <h2 class="feature__title">Prvi koraci traju samo nekoliko minuta</h2>
+        <p class="feature__text">
+          Dodajte svoje apartmane i povežite ih s platformama za rezervacije
+          putem iCal poveznice. Ugrađene upute korak po korak pokazuju gdje
+          pronaći iCal poveznicu na Airbnbu, Booking.comu ili VRBO-u — bez
+          dugog traženja po tuđim web stranicama.
+        </p>
+      </div>
+      <div class="feature__visual" data-reveal>
+        <!-- MJESTO ZA SNIMKU 8/9 — postavljanje iCal-a / modal s uputama -->
+        <div class="device-frame">
+          <div class="device-frame__screen">
+            <img class="device-frame__img img--ical" src="assets/screenshots/08-ical-setup.webp" alt="Upute korak po korak za postavljanje iCal veze" loading="lazy" width="1080" height="2340">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: DODATNE FUNKCIJE — mreža
+     ========================================================================== -->
+<section class="section" data-block="feature-grid">
+  <div class="container">
+    <div class="section-head section-head--center" data-reveal>
+      <span class="eyebrow" style="justify-content:center;display:flex"><span class="dot"></span>Aplikacija zna i ovo</span>
+      <h2 class="feature__title">Male funkcije s velikim učinkom</h2>
+      <p class="lead">
+        Kako biste manje vremena trošili na administraciju, a više vremena provodili sa svojim gostima.
+      </p>
+    </div>
+
+    <ul class="feature-grid">
+      <li class="feature-grid__item" data-reveal>
+        <svg class="icon"><use href="#icon-check"/></svg>
+        <p>Automatski zadaci za goste koji dolaze i odlaze</p>
+      </li>
+      <li class="feature-grid__item" data-reveal>
+        <svg class="icon"><use href="#icon-calendar"/></svg>
+        <p>Ponavljajući zadaci — svaki ponedjeljak ili svaki petak</p>
+      </li>
+      <li class="feature-grid__item" data-reveal>
+        <svg class="icon"><use href="#icon-bell"/></svg>
+        <p>Podsjetnici vezani uz termine na željeni dan</p>
+      </li>
+      <li class="feature-grid__item" data-reveal>
+        <svg class="icon"><use href="#icon-shield"/></svg>
+        <p>Upozorenje kod preklapanja rezervacija za isti apartman</p>
+      </li>
+      <li class="feature-grid__item" data-reveal>
+        <svg class="icon"><use href="#icon-search"/></svg>
+        <p>Brzo pretraživanje po imenu, broju telefona ili e-mailu</p>
+      </li>
+      <li class="feature-grid__item" data-reveal>
+        <svg class="icon"><use href="#icon-phone"/></svg>
+        <p>Poziv i e-mail jednim dodirom izravno iz aplikacije</p>
+      </li>
+      <li class="feature-grid__item" data-reveal>
+        <svg class="icon"><use href="#icon-home"/></svg>
+        <p>Upravljanje s više apartmana u jednoj aplikaciji</p>
+      </li>
+      <li class="feature-grid__item" data-reveal>
+        <svg class="icon"><use href="#icon-book"/></svg>
+        <p>Ugrađene upute korak po korak za iCal</p>
+      </li>
+      <li class="feature-grid__item" data-reveal>
+        <svg class="icon"><use href="#icon-sparkle"/></svg>
+        <p>Kontinuirano nove funkcije na temelju povratnih informacija korisnika</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: BETA FAZA / PRETPLATA
+     ========================================================================== -->
+<section class="section section--tight" id="preise" data-block="intro-period-pricing">
+  <div class="container">
+    <div class="highlight-banner highlight-banner--pricing" data-reveal>
+      <span class="highlight-banner__icon">
+        <svg class="icon-lg"><use href="#icon-zap"/></svg>
+      </span>
+      <h3>Beta faza: besplatno korištenje</h3>
+      <p>
+        Mjesečna pretplata bit će dostupna tek nakon službenog pokretanja.
+        Svi korisnici bit će e-poštom obaviješteni najmanje 14 dana unaprijed
+        prije nego što do toga dođe — do tada je aplikacija u potpunosti besplatna za korištenje.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: RANI KORISNICI / POVRATNE INFORMACIJE
+     ========================================================================== -->
+<section class="section--tight" data-block="early-access-trust">
+  <div class="container">
+    <div class="early-access-note" data-reveal>
+      <svg class="icon"><use href="#icon-users"/></svg>
+      <p>
+        Na temelju povratnih informacija prvih korisnika Apartman Asistent se
+        kontinuirano razvija — i vaše mišljenje oblikuje uslugu. Ne dobivate
+        gotov, zaokružen proizvod, nego postajete dio ranih korisnika aplikacije
+        koja se stalno razvija i kod koje povratne informacije zaista imaju značaj.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: PRIČA / ZAŠTO JE NASTAO
+     ========================================================================== -->
+<section class="section" data-block="story">
+  <div class="container">
+    <div class="story" data-reveal>
+      <span class="eyebrow"><span class="dot"></span>Zašto je nastao Apartman Asistent</span>
+      <blockquote>
+        „Dobra aplikacija ne postaje dobra time što ima što više funkcija —
+        nego time što stvarno olakšava svakodnevni rad.“
+      </blockquote>
+      <p>
+        Apartman Asistent nije nastao kao poslovna ideja, nego kao rješenje
+        jednostavnog problema: da u svakodnevnom radu ne morate iste informacije
+        tražiti na više mjesta, pamtiti napamet ili ponovno zapisivati.
+      </p>
+      <p>
+        Nisam željela kompliciran sustav. Nego aplikaciju koja ujutro, kad je
+        otvorite, pomaže da imate pregled nad danom, podsjeća na važne
+        zadatke i skida dio tereta s ramena.
+      </p>
+      <p class="story__signature">
+        Osnovna ideja Apartman Asistenta
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: FAQ — temeljen na <details>/<summary>, radi i bez JS-a
+     ========================================================================== -->
+<section class="section" id="faq" data-block="faq">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow"><span class="dot"></span>FAQ</span>
+      <h2 class="feature__title">Često postavljana pitanja</h2>
+    </div>
+
+    <div class="faq-list">
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">Na kojim uređajima radi Apartman Asistent?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Na pametnom telefonu, tabletu i računalu. Kao PWA aplikacija se u nekoliko klikova može instalirati i na početni zaslon mobitela.</p>
+      </details>
+
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">Koliko traje postavljanje?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Dodavanje prvog apartmana i postavljanje iCal veze obično traje samo nekoliko minuta. Ugrađene upute pomažu korak po korak.</p>
+      </details>
+
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">Moram li nešto zasebno instalirati?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Ne. Aplikacija radi izravno u pregledniku, a po potrebi se može instalirati i na početni zaslon mobitela.</p>
+      </details>
+
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">Koliko apartmana mogu upravljati?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Aplikacija je prikladna za upravljanje s više apartmana.</p>
+      </details>
+
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">Što je beta faza?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Tijekom beta faze Apartman Asistent je besplatan za korištenje. U tom razdoblju aplikacija se kontinuirano razvija na temelju povratnih informacija ranih korisnika.</p>
+      </details>
+
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">Treba li mojoj osobi za čišćenje vlastiti račun?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Ne. Svaki apartman ima vlastitu, tajnu poveznicu koju možete podijeliti npr. putem WhatsAppa. Osoba koja čisti tako bez prijave vidi nadolazeća čišćenja i jednim klikom ih označava kao obavljena.</p>
+      </details>
+
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">Kada moram platiti?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Nakon registracije usluga je tijekom beta faze besplatna za korištenje. Kada Apartman Asistent službeno krene s radom, obavijestit ćemo vas e-poštom najmanje 14 dana unaprijed. Tada vi odlučujete želite li nastaviti s pretplatom.</p>
+      </details>
+
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">Moram li sklopiti pretplatu?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Ne. Prije naplatne pretplate pitat ćemo vas želite li nastaviti koristiti uslugu. Tek kada to potvrdite, postajete pretplatnik.</p>
+      </details>
+
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">Jesu li moji podaci sigurni?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Da. Aplikacija obrađuje isključivo podatke potrebne za rad. Detalji su navedeni u izjavi o zaštiti podataka.</p>
+      </details>
+
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">S kojim platformama za rezervacije aplikacija surađuje?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Putem iCal veze sa svim platformama koje podržavaju iCal izvoz — na primjer Airbnb, Booking.com ili VRBO.</p>
+      </details>
+
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">Dobivam li pomoć pri postavljanju?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Da. Ugrađene upute pomažu korak po korak pri postavljanju iCal veze.</p>
+      </details>
+
+      <details class="faq-item" data-reveal>
+        <summary class="faq-item__question">Zašto je nastao Apartman Asistent?
+          <svg class="icon"><use href="#icon-chevron-down"/></svg>
+        </summary>
+        <p class="faq-item__answer">Zato što upravljanje apartmanima ne postaje jednostavnije time da imate otvoreno još više sučelja.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ==========================================================================
+     BLOK: ZAVRŠNI CTA
+     ========================================================================== -->
+<section class="section" id="cta" data-block="final-cta">
+  <div class="container">
+    <div class="final-cta" data-reveal>
+      <h2>Spremni pojednostavniti upravljanje svojim apartmanima?</h2>
+      <p class="lead">
+        Uključite se u beta fazu i koristite Apartman Asistent
+        besplatno dok usluga službeno ne krene.
+      </p>
+      <div class="cta-group">
+        <a class="btn btn-primary" href="https://app.apartmanasistent.hr" data-cta="final">
+          Započni besplatno sada
+          <svg class="icon" style="width:18px;height:18px"><use href="#icon-arrow-right"/></svg>
+        </a>
+        <ul class="trust-badges trust-badges--emphasis">
+          <li><svg class="icon"><use href="#icon-card"/></svg>Kreditna kartica nije potrebna</li>
+          <li><svg class="icon"><use href="#icon-shield"/></svg>Nema automatske naplate</li>
+          <li><svg class="icon"><use href="#icon-bell"/></svg>Obavijest e-poštom 14 dana unaprijed prije nego što usluga postane naplatna</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ==========================================================================
+     BLOK: PODNOŽJE
+     ========================================================================== -->
+<footer class="site-footer" data-block="footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__brand">
+      <span class="logo__mark" style="width:26px;height:26px">
+        <svg viewBox="0 0 24 24" style="width:15px;height:15px"><use href="#icon-home"/></svg>
+      </span>
+      Apartman Asistent
+    </div>
+    <ul class="site-footer__links">
+      <li><a href="/kontakt">Kontakt</a></li>
+      <li><a href="/agb">Opći uvjeti</a></li>
+      <li><a href="/datenschutz">Izjava o zaštiti podataka</a></li>
+      <li><a href="/impressum">Impresum</a></li>
+    </ul>
+    <p class="site-footer__meta">© 2026 Apartman Asistent</p>
+  </div>
+</footer>
+
+<!-- ==========================================================================
+     BLOK: BANER ZA KOLAČIĆE (GDPR / Consent Mode v2)
+     ========================================================================== -->
+<div class="cookie-banner" id="cookie-banner" data-block="cookie-banner" role="dialog" aria-label="Postavke kolačića" aria-live="polite">
+  <p>
+    Ova web stranica koristi nužne kolačiće te, uz vašu suglasnost, i
+    statističke kolačiće. Više o tome u
+    <a href="/datenschutz">izjavi o zaštiti podataka</a>.
+  </p>
+  <div class="cookie-banner__actions">
+    <button class="btn btn-primary" id="cookie-accept" type="button">Prihvati</button>
+    <button class="btn btn-ghost" id="cookie-reject" type="button">Samo nužni</button>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
